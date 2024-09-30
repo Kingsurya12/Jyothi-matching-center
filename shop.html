@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatchingCenter</title>
+    <style>
+      button{
+        font-size: 20px;
+      }
+      .popup{
+        width: 50px;
+       
+      }
+      .popover{
+        display: none;
+        font-size: 20px;
+        position: absolute;
+        width: 150px;
+        border: solid black;
+        background-color: white;
+      }
+      .popup:hover .popover{
+        display: block;
+      }
+       
+       .head{
+        background-color: lightblue;
+        top: 0px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: sticky;
+       }
+        h1.matching-center {
+            font-size: 30px; 
+            position: relative; 
+            left: 30%;
+            max-width: 440px;
+            background-color:lightgoldenrodyellow;
+        }
+        p{
+            font-size: 20px;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto; /* Center the image */
+            max-height: 500px;
+            width: 100vw;
+        }
+    </style>
+    
+</head>
+<body><div class="head">
+    <h1 class="matching-center"><b>JYOTHI MATCHING CENTER</b></h1>
+</div>
+    <p><span style="color: red; font-weight: bold;">Hello Everyone</span>    <br>
+        <span style="color: palevioletred; font-weight: bold;">  Welcome to Jyothi Matching Center. We Sell products at very low price</span> <br>
+        <span style="color: green; font-weight: bold;"> To know our items click on below items option.</span>
+    </p>
+    <div class="popup">
+     <button  onclick="window.location.href='Items.html'">Items</button>
+     <div class="popover">
+        <ul>
+            <li>Lining</li>
+            <li>Bnagles</li>
+            <li>Phauls</li>
+            <li>Jewellery</li>
+        </ul>
+     </div>
+    </div>
+    <img src="https://files.oaiusercontent.com/file-L3vWspwgtuG6PR0SVt5HRzXM?se=2024-09-30T13%3A24%3A12Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D28b3fe9d-1f23-4bfc-afa6-dc18cca0ad72.webp&sig=r70c4Bt7wYzAKPvSWpnoI58H2TzYMX0TuLL/SwklJ34%3D" alt="Matching Center Image">
+</body>
+</html>
